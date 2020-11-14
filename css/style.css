@@ -79,6 +79,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline-offset: none;
 }
 
+
+
 /* Navigation */
 .navbar {
 	background: #262626;
@@ -150,6 +152,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	padding: 0;
 	background: url(../img/intro-bg.jpg) center center no-repeat;
 	background-color: #e5e5e5;
+	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -173,7 +176,8 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	color: #fff;
 	font-size: 24px;
 	font-weight: 400;
-	margin-top: 150px;
+	margin-top: 100px;
+	margin-bottom: 100px;
 }
 header .intro-text {
 	padding-top: 200px;
@@ -286,6 +290,7 @@ header .intro-text {
 /* Team Section */
 #team {
 	padding: 120px 0;
+	background-color: #f6f6f6;
 }
 #team h2::after {
 	bottom: 0;
@@ -419,4 +424,14 @@ color: #999;
 }
 #footer a:hover {
 	color: #eee;
+}
+
+.order {
+	text-align: center;
+	background-color: #f6f6f6;
+}
+
+.video-player {
+	float: left;
+	text-align: left;
 }
