@@ -333,13 +333,13 @@ header .intro-text a {
   left: 0;
 }
 #team img {
-  min-width: 480px;
+  max-width: 95%;
   text-align: center;
+  width: auto;
 }
 #team .team-img {
   display: inline-block;
   position: relative;
-  position: static;
 }
 /* Contact Section */
 #contact {
