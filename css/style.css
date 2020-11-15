@@ -333,7 +333,7 @@ header .intro-text a {
   left: 0;
 }
 #team img {
-  max-width: 100%;
+  min-width: 480px;
   text-align: center;
 }
 #team .team-img {
