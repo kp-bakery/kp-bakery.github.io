@@ -347,7 +347,10 @@ header .intro-text a {
 #contact .contact-item p {
   font-size: 15px;
   color: #777;
+  text-decoration: none;
 }
+
+
 #contact .section-title {
   margin-top: 60px;
   margin-bottom: 40px;
@@ -482,7 +485,7 @@ label {
   transition: all 0.3s ease 0s;
 }
 
-.btn-custom-2:hover {
+.btn-custom-2:hover, .btn-custom-2:focus{
   color: #FFF;
   background: rgba(213, 58, 49, 0.75);
   border: 2px solid  rgba(213, 58, 49, 0.75);
@@ -491,3 +494,5 @@ label {
 .btn-round{ 
 	border-radius: 50px;
 }
+
+
