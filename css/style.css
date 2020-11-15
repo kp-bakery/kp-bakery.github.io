@@ -475,7 +475,7 @@ label {
 }
 
 .btn-custom-2 {
-  font-size: 13px;
+  font-size: 1em;
   color: rgba(213, 58, 49, 0.75);
   letter-spacing: 1px;
   line-height: 15px;
@@ -483,6 +483,8 @@ label {
   border-radius: 40px;
   background: transparent;
   transition: all 0.3s ease 0s;
+  width: 15em;
+  height: 3em;
 }
 
 .btn-custom-2:hover, .btn-custom-2:focus{
