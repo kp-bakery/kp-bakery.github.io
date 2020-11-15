@@ -314,6 +314,7 @@ header .intro-text a {
 /* Gallery Section */
 .gallery {
   display: table;
+  height: 400px;
   width: 100%;
   padding: 0;
   background-color: #e5e5e5;
@@ -321,6 +322,15 @@ header .intro-text a {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
+}
+
+.gallery img {
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  vertical-align: middle;
 }
 /* Team Section */
 #team {
