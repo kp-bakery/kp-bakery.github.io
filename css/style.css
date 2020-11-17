@@ -233,6 +233,7 @@ header .intro-text a {
 #about {
   padding: 0;
   background: #f6f6f6;
+  box-shadow: 0 0 10px 0 rgba(246, 246, 246, 0.5);
 }
 #about h2::after {
   bottom: 0;
@@ -300,14 +301,15 @@ header .intro-text a {
   font-size: 20px;
   color: #444;
   margin-bottom: 10px;
+  width: 80%;
 }
 #restaurant-menu .menu-item-description {
   font-size: 15px;
-  width: 85%;
+  width: 80%;
 }
 #restaurant-menu .menu-item-price {
   float: right;
-  font-weight: 400;
+  font-weight: 200;
   color: #555;
   margin-top: -36px;
 }

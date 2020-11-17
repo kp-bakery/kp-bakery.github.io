@@ -16,12 +16,12 @@
   <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
   <!--<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
   <!-- Stylesheet
     ================================================== -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Rochester" rel="stylesheet">
@@ -31,7 +31,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
   <audio autoplay loop>
-    <source src="./mus/audio.mp3" type="audio/mpeg">
+    <source src="../mus/audio.mp3" type="audio/mpeg">
   </audio>
   <!-- Navigation-->
   <nav id="menu" class="navbar navbar-default navbar-fixed-top">
@@ -45,10 +45,10 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li><a href="./index.html">Главная</a></li>
-          <li><a href="./order.html">Заказать</a></li>
-          <li><a href="#features" class="page-scroll">Каталог</a></li>
-          <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="../order.html">Заказать</a></li>
+          <li><a href="../catalog.html" class="page-scroll">Каталог</a></li>
+          <li><a href="#restaurant-menu" class="page-scroll">Цены</a></li>
           <li><a href="#team" class="page-scroll">Доставка и оплата</a></li>
           <li><a href="#contact" class="page-scroll">Контакты</a></li>
         </ul>
@@ -66,67 +66,79 @@
             <div class="intro-text">
               <h1>KP Bakery</h1>
               <p> </p>
-              <button type="button" class="btn btn-custom-2 btn-round btn-lg active"><a href="./order.html">Заказать</a></button>
+              <button type="button" class="btn btn-custom-2 btn-round btn-lg active"><a href="../order.html">Заказать</a></button>
             </div>
           </div>
         </div>
       </div>
     </div>
   </header>
-  <!-- Features Section -->
-  <div id="features" class="text-center">
+  </div>
+  <!-- Team Section -->
+  <div id="team">
     <div class="container">
-      <div class="section-title">
-        <h2>Каталог</h2>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <a href="./catalog/bufet.html">
-            <div class="features-item">
-              <h3>Фуршетное меню</h3>
-              <img src="img/specials/1.jpg" class="img-responsive" alt="">
-              <p>Вы можете воспользоваться уже готовыми вариантами меню или внести изменения с учетом вкусовых
-                предпочтений Ваших гостей</p>
+      <div id="row">
+        <div class="col-md-6">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="section-title">
+              <h2>Фуршетное меню</h2>
             </div>
-          </a>
+            <p class="text-justify">
+              Эти небольшие десерты способны удивить и покорить сердце! При организации праздника в Киеве возникает
+              потребность сделать его особенным, столовая решением этого вопроса будет заказать хотя бы несколько
+              макаронс. Этот десерт привлекает не только оригинальным видом, который радует глаз и вызывает восхищение
+              цветовой палитры. 
+            </p>
+          </div>
         </div>
-        <div class="col-xs-12 col-sm-6">
-          <a href="./catalog/torte.html">
-            <div class="features-item">
-              <h3>Торты праздничные</h3>
-              <img src="img/specials/2.jpg" class="img-responsive" alt="">
-              <p>Готовим кремовые торты на заказ, стильно оформленные с самой вкусной начинкой</p>
-            </div>
-          </a>
-        </div> 
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <a href="./catalog/cookies.html">
-            <div class="features-item">
-              <h3>Печенье</h3>
-              <img src="img/specials/3.jpg" class="img-responsive" alt="">
-              <p>Как приятно подать свежеиспеченное печенье к чаю, разнообразить им сладкий праздничный стол, сделать
-                подарок, взять с собой на работу</p>
-            </div>
-          </a>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <a href="./catalog/macarons.html">
-            <div class="features-item">
-              <h3>Пироженые и макаронсы</h3>
-              <img src="img/specials/4.jpg" class="img-responsive" alt="">
-              <p>Эти небольшие десерты способны удивить и покорить сердце</p>
-            </div>
-          </a>
+        <div class="col-md-6">
+          <div class="team-img">
+            <img src="../img/specials/1.jpg" alt="...">
+          </div>
         </div>
       </div>
     </div>
   </div>
   
+  <!-- Restaurant Menu Section -->
+  <div id="restaurant-menu">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>Цены</h2>
+      </div>
+      <div class="row">
+        <div class="menu-section">
+          <div class="menu-item">
+            <div class="menu-item-name">Фруктово-ягодная тарталетка</div>
+            <div class="menu-item-price text-uppercase"> 40 грн </div>
+            <div class="menu-item-description"> По-настоящему летняя тарталетка из крема на основе кокосовых сливок и
+              свежей малины </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Лимонное сердце</div>
+            <div class="menu-item-price text-uppercase"> 45 грн </div>
+            <div class="menu-item-description"> Роскошный десерт, от которого замирает сердце, не требует особых
+              усилий и может подаваться сразу, без застывания </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Ягодный микс</div>
+            <div class="menu-item-price text-uppercase"> 40 грн </div>
+            <div class="menu-item-description"> Тонкая хрустящая песочная основа дополнена сливочно-сырной начинкой с
+              ягодами </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-name">Шоколадный фондан</div>
+            <div class="menu-item-price text-uppercase"> 60 грн </div>
+            <div class="menu-item-description"> Классический французский десерт, название которого переводится, как
+              «тающий шоколад» </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Gallery Section -->
   <div class="gallery">
-    <img src="img/gallery/02.jpg" class="img-responsive" alt="">
+    <img src="../img/gallery/04.jpg" class="img-responsive img-01" alt="">
   </div>
   <!-- Team Section -->
   <div id="team">
@@ -172,16 +184,16 @@
   </div>
   <div id="footer">
     <div class="container text-center">
-      <p>made with <img src="./gif/cote.gif" alt="" style="width: 10%;"></p>
+      <p>made with <img src="../gif/cote.gif" alt="" style="width: 10%;"></p>
     </div>
   </div>
 
-  <script type="text/javascript" src="js/jquery.1.11.1.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
-  <script type="text/javascript" src="js/SmoothScroll.js"></script>
-  <script type="text/javascript" src="js/jqBootstrapValidation.js"></script>
-  <script type="text/javascript" src="js/contact_me.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
+  <script type="text/javascript" src="../js/jquery.1.11.1.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <script type="text/javascript" src="../js/SmoothScroll.js"></script>
+  <script type="text/javascript" src="../js/jqBootstrapValidation.js"></script>
+  <script type="text/javascript" src="../js/contact_me.js"></script>
+  <script type="text/javascript" src="../js/main.js"></script>
 </body>
 
 </html>
